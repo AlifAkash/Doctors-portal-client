@@ -9,16 +9,16 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link mr-5" href="#">Home</a>
+                    <a class="nav-link mr-5" href="/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-5" href="#">About</a>
+                    <a class="nav-link mr-5" href="/dashboard/appointment">DashBoard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-5" href="#">Dental services</a>
+                    <a class="nav-link mr-5" href="/appointment">Dental services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-5 text-white" href="#">Review</a>
+                    <a class="nav-link mr-5 text-white" href="/admin">Admin</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mr-5 text-white" href="#">Blog</a>
